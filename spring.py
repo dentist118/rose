@@ -12,7 +12,7 @@ imgs = [
         ]
         # Manually calculated by letting the test fail and copying and
         # pasting the result.
-url = "C:\Users\md\Pictures\fixed.png"
+url = "https://bgremoval.streamlit.app/~/+/media/e41ef1cefe668882972d74a560811abe2134ebe7cdf41d69e50f5ae8.png"
 caption = "ahoy!"
 
         
