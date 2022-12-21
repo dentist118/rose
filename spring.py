@@ -19,7 +19,7 @@ caption = "ahoy!"
 st.image([url] * 1, caption=[caption] * 1)
 st.image(
             imgs,
-            caption=["some caption"] * 3,
+            caption=["some caption"] * 1,
             width=200,
             use_column_width=True,
             clamp=True,
