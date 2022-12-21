@@ -12,7 +12,7 @@ imgs = [
         ]
         # Manually calculated by letting the test fail and copying and
         # pasting the result.
-url = "cat.png"
+url = "https://bgremoval.streamlit.app/~/+/media/c4e5367c557d51b94574671c91778cff53fb5aff96f31ed81ece3e63.jpg"
 caption = "ahoy!"
 
         
