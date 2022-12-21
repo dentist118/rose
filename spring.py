@@ -18,13 +18,5 @@ caption = "ahoy!"
 
         
 st.image([url] * 2, caption=[caption] * 2)
-st.image(
-            imgs,
-            caption=["some caption"] * 3,
-            width=200,
-            use_column_width=True,
-            clamp=True,
-            
-        )
 
        
