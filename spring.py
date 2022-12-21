@@ -6,21 +6,23 @@ from PIL import Image
 #def test_st_image_PIL_array(self):
 """Test st.image with a PIL array."""
 imgs = [
-            Image.new("RGB", (32, 32), color="orange"),
-            Image.new("RGB", (32, 32), color="pink"),
-            Image.new("RGB", (64, 64), color="yellow"),
+            Image.new("RGB", (32, 32), color="red"),
+            Image.new("RGB", (32, 32), color="blue"),
+            Image.new("RGB", (64, 64), color="green"),
         ]
         # Manually calculated by letting the test fail and copying and
         # pasting the result.
-
+imgs_b32 = [
+            "medo1.png",
+            "medo1.png",
+            "medo1.png",
+        ]
 st.image(
-            Image.open('medo1.png'),
-            
-            caption=["some caption"] * 1,
+            imgs,
+            caption=["some caption"] * 3,
             width=30,
             use_column_width=True,
             clamp=True,
-           
             
         )
 
