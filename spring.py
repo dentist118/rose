@@ -7,8 +7,8 @@ from PIL import Image
 """DR.MAHMOUD ABD ELAZIZ."""
 imgs = [
             Image.new("RGB", (32, 32), color="red"),
-            Image.new("RGB", (32, 32), color="blue"),
-            Image.new("RGB", (64, 64), color="green"),
+            Image.new("RGB", (32, 32), color="GRAY"),
+            Image.new("RGB", (64, 64), color="BLACK"),
         ]
         # Manually calculated by letting the test fail and copying and
         # pasting the result.
