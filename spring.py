@@ -12,7 +12,7 @@ imgs = [
         ]
         # Manually calculated by letting the test fail and copying and
         # pasting the result.
-url = "https://streamlit.io/cat.png"
+url = "cat.png"
 caption = "ahoy!"
 
         
