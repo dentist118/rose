@@ -7,7 +7,7 @@ from PIL import Image
 
 """Test st.image with a PIL array."""
 imgs = [
-            Image.new("RGB", (64, 64), color="red"),
+            Image.new("RGB", (64, 64), color="white"),
             
         ]
         # Manually calculated by letting the test fail and copying and
