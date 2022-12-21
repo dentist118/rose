@@ -17,6 +17,6 @@ url = "https://streamlit.io/an_image.png"
 caption = "ahoy!"
 
         
-st.image([url] * 2, caption=[caption] * 2)
+st.image([url] * 3, caption=[caption] * 3)
 
        
