@@ -4,7 +4,7 @@ from PIL import Image
 
 
 #def test_st_image_PIL_array(self):
-"""Test st.image with a PIL array."""
+"""DR.MAHMOUD ABD ELAZIZ."""
 imgs = [
             Image.new("RGB", (32, 32), color="red"),
             Image.new("RGB", (32, 32), color="blue"),
