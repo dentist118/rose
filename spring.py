@@ -14,7 +14,7 @@ imgs = [
         # pasting the result.
 
 st.image(
-            Image.open('C:\medo1.png'),
+            Image.open('medo1.png'),
             
             caption=["some caption"] * 1,
             width=30,
