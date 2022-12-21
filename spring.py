@@ -13,11 +13,11 @@ imgs = [
         ]
         # Manually calculated by letting the test fail and copying and
         # pasting the result.
-imgs_b64 = [
-            "A1oDWgNaA9oFUoUBf3Xr7AgAAAAASUVORK5CYII=",
-            "WgNaA1oDWgPaBVCHAX/y3CvgAAAAAElFTkSuQmCC",
-            "NaA1oDWgNaBdYVwBALVjUB8AAAAASUVORK5CYII=",
-        ]
+url = "https://streamlit.io/an_image.png"
+caption = "ahoy!"
+
+        
+st.image([url] * 2, caption=[caption] * 2)
 st.image(
             imgs,
             caption=["some caption"] * 3,
